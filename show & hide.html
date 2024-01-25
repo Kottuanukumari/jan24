@@ -1,0 +1,49 @@
+<html>
+ <head>
+     <title>nav bar</title>
+     <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   </head>
+<body>
+    <nav class="navbar-inverse" style="position: sticky;top:0; z-index:100;">
+        <div class="navbar-header">
+            <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">ANU</a>
+        </div>
+        <div class="navbar-collapse collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="variablechange.html">variable change</a></li>
+                 <li><a href="show & hide.html">show & hide</a></li>
+                  <li><a href="formtofill.html">form to fill</a></li>
+                 <li><a href="animation.html">Animation</a></li>
+                <li><a href="marquee.html">marquee</a></li>
+            </ul>
+        </div>
+    </nav>
+    <sction id="show & hide">
+            <center>
+                <button onclick="Hide()" id="d1">click here</button>
+            <br>
+            <h1 id="hideme" style="display:none">while clicking on<br>the button text will get hide</h1>
+                     </center>
+            <script>
+            function Hide(){
+    document.getElementById("hideme").style.display="block";
+}
+            </script>
+    </sction>
+    <style>
+        body{
+            background-image: url(https://media.istockphoto.com/id/503039699/photo/grass-and-soil.jpg?s=612x612&w=0&k=20&c=P1pduuDtsrGkotZy63O_krC466Ionf2l_SwSim1U-q4=);
+        }
+    </style>
+    </body>
+</html>
